@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.example.listener.ListenerClass"></listener>
+<listener class-name="com.example.listener.RetryAnalyzer"></listener>
+</listeners>
+	<test thread-count="2" parallel="methods" name="Test">
+		<classes>
+			<class name="com.exampple.testcases.DemoClass"></class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

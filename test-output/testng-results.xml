@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-12T13:15:44 IST" name="Default suite" finished-at="2023-05-12T13:15:52 IST" duration-ms="8173">
+    <groups>
+    </groups>
+    <test started-at="2023-05-12T13:15:44 IST" name="Default test" finished-at="2023-05-12T13:15:52 IST" duration-ms="8173">
+      <class name="com.exampple.testcases.DemoClass">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.exampple.testcases.DemoClass@4e76dac]" started-at="2023-05-12T13:15:44 IST" name="setUp" finished-at="2023-05-12T13:15:52 IST" duration-ms="7555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestCaseB()[pri:0, instance:com.exampple.testcases.DemoClass@4e76dac]" started-at="2023-05-12T13:15:52 IST" name="TestCaseB" description="This is B Test case" finished-at="2023-05-12T13:15:52 IST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseB -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.exampple.testcases.DemoClass@4e76dac]" started-at="2023-05-12T13:15:52 IST" name="tearDown" finished-at="2023-05-12T13:15:52 IST" duration-ms="249" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseB status=SUCCESS method=DemoClass.TestCaseB()[pri:0, instance:com.exampple.testcases.DemoClass@4e76dac] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.exampple.testcases.DemoClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
