@@ -1,4 +1,4 @@
-Selenium hybrid framework created from scratch using all the latest tech stack availabe out there. It has following impementation:
+Selenium hybrid framework created from scratch using all the latest tech stack availabe out there. It has following implementation:
 
 1) Selenium
 3) TestNG
