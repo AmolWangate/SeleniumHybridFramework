@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-07T21:52:45 IST" name="Suite" finished-at="2024-04-07T21:52:55 IST" duration-ms="9314">
+    <groups>
+      <group name="regression">
+        <method signature="InventoryTest.verifyProductTitle(java.lang.String)[pri:0, instance:com.test.testcases.InventoryTest@1568159]" name="verifyProductTitle" class="com.test.testcases.InventoryTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.login(java.lang.String,java.lang.String)[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" name="login" class="com.test.testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2024-04-07T21:52:45 IST" name="Test" finished-at="2024-04-07T21:52:55 IST" duration-ms="9314">
+      <class name="com.test.testcases.InventoryTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-04-07T21:52:45 IST" name="setUp" finished-at="2024-04-07T21:52:53 IST" duration-ms="7986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyProductTitle(java.lang.String)[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-04-07T21:52:53 IST" name="verifyProductTitle" description="verify products title is displayed on inventory page" finished-at="2024-04-07T21:52:54 IST" duration-ms="648" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demoValue]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[
+expected: "products"
+ but was: "Products"]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: 
+expected: "products"
+ but was: "Products"
+at com.test.testcases.InventoryTest.verifyProductTitle(InventoryTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+at java.base/java.lang.Thread.run(Thread.java:834)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductTitle -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-04-07T21:52:54 IST" name="tearDown" finished-at="2024-04-07T21:52:55 IST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.InventoryTest -->
+      <class name="com.test.testcases.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-04-07T21:52:45 IST" name="setUp" finished-at="2024-04-07T21:52:53 IST" duration-ms="7844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-04-07T21:52:53 IST" name="login" description="Verify login functionality" data-provider="loginData" finished-at="2024-04-07T21:52:54 IST" duration-ms="765" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-04-07T21:52:54 IST" name="tearDown" finished-at="2024-04-07T21:52:54 IST" duration-ms="324" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

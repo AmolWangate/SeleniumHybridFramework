@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.test.listeners.TestListeners"></listener>
+		<listener class-name="com.test.retryanalyzer.AnnotationTransformer"></listener>
+	</listeners>
+	<test thread-count="2" parallel="methods" name="Test">
+		<parameter name="demo" value="demoValue"></parameter>
+		<classes>
+			<class name="com.test.testcases.LoginTest" />
+			<class name="com.test.testcases.InventoryTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

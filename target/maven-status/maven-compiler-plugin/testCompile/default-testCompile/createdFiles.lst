@@ -1,0 +1,4 @@
+com\test\baseclass\BaseClass.class
+com\test\testcases\InventoryTest.class
+com\test\testcases\LoginTest.class
+com\test\dataprovider\DataProviderClass.class
