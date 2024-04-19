@@ -18,7 +18,7 @@ public final class DriverManager {
 		return tlDriver.get();
 	}
 
-	public synchronized void unload() {
+	static synchronized void unload() {
 		tlDriver.remove();
 	}
 }

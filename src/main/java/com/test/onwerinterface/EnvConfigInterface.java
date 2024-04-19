@@ -7,6 +7,8 @@ public interface EnvConfigInterface extends Config {
 
 	String browser();
 
+	String mode();
+
 	String url();
 
 	int retrycount();

@@ -6,6 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import com.test.customexception.InvalidWaitTypeException;
 import com.test.driverfactory.DriverManager;
 import com.test.enums.WaitType;
 
@@ -30,7 +31,7 @@ public final class WaitUtility {
 			webElement = element;
 			break;
 		default:
-			break;
+			throw new InvalidWaitTypeException("Invalid wait type: " + waitStrategy.name());
 		}
 		return webElement;
 	}

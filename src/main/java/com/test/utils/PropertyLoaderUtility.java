@@ -26,15 +26,15 @@ public final class PropertyLoaderUtility {
 		try {
 			fileInputStream = new FileInputStream(path);
 		} catch (FileNotFoundException e) {
-			LOG.fatal("File could not be located");
-			throw new FNFException("file could not be located", e.getCause());
+			LOG.fatal("File could not be located" + e.getMessage());
+			throw new FNFException("file could not be located: " + e.getMessage(), e.getCause());
 		}
 		properties = new Properties();
 		try {
 			properties.load(fileInputStream);
 		} catch (IOException e) {
 			LOG.fatal("I/O exception has occured");
-			throw new FIFOException("I/O exception occured", e.getCause());
+			throw new FIFOException("I/O exception occured: " + e.getMessage(), e.getCause());
 		}
 		return properties;
 

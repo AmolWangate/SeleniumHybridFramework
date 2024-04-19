@@ -9,7 +9,7 @@ import com.test.onwerinterface.EnvConfigInterface;
 public class RetryAnalyzer implements IRetryAnalyzer {
 
 	private int count = 0;
-	private int maxTry = ConfigFactory.create(EnvConfigInterface.class).retrycount();
+	private int maxTry = ConfigFactory.create(EnvConfigInterface.class).retrycount(); 
 
 	@Override
 	public boolean retry(ITestResult result) {
@@ -28,4 +28,7 @@ public class RetryAnalyzer implements IRetryAnalyzer {
 		return false;
 	}
 
+
+	
 }
+	

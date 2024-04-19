@@ -25,7 +25,7 @@ public class PropertyReader {
 
 	public String getPropertyValue(EnvConfig key) {
 		if (Objects.isNull(key) || Objects.isNull(properties.getProperty(key.name().toLowerCase()))) {
-			throw new InvalidKeyException(String.format("provided key %s is not correct: " + key));
+			throw new InvalidKeyException(String.format("provided key %s is not correct: ", key));
 		}
 		return properties.getProperty(key.name().toLowerCase());
 	}

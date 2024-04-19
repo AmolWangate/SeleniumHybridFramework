@@ -1,6 +1,6 @@
 package com.test.customexception;
 
-public class InvalidKeyException extends RuntimeException {
+public class InvalidKeyException extends FrameworkException {
 
 	/**
 	 * 
