@@ -16,4 +16,5 @@ Log4j2
 Data provider
 TestNG xml execution
 Command line execution
+Browserstack implementation
 Ready for CI/CD integration
