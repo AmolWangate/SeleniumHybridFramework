@@ -12,6 +12,8 @@ public interface EnvConfigInterface extends Config {
 	String url();
 
 	int retrycount();
+	
+	boolean openreport();
 
 	boolean passscreenshot();
 

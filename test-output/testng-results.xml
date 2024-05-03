@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-19T16:35:25 IST" name="Suite" finished-at="2024-04-19T16:35:34 IST" duration-ms="8628">
+  <suite started-at="2024-05-03T17:38:15 IST" name="Suite" finished-at="2024-05-03T17:38:25 IST" duration-ms="10031">
     <groups>
       <group name="regression">
         <method signature="InventoryTest.verifyProductTitle(java.lang.String)[pri:0, instance:com.test.testcases.InventoryTest@1568159]" name="verifyProductTitle" class="com.test.testcases.InventoryTest"/>
@@ -11,13 +11,13 @@
         <method signature="LoginTest.login(java.lang.String,java.lang.String)[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" name="login" class="com.test.testcases.LoginTest"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2024-04-19T16:35:25 IST" name="Test" finished-at="2024-04-19T16:35:34 IST" duration-ms="8628">
+    <test started-at="2024-05-03T17:38:15 IST" name="Test" finished-at="2024-05-03T17:38:25 IST" duration-ms="10031">
       <class name="com.test.testcases.InventoryTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-04-19T16:35:25 IST" name="setUp" finished-at="2024-04-19T16:35:32 IST" duration-ms="7131" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-05-03T17:38:15 IST" name="setUp" finished-at="2024-05-03T17:38:23 IST" duration-ms="8558" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyProductTitle(java.lang.String)[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-04-19T16:35:32 IST" name="verifyProductTitle" description="verify products title is displayed on inventory page" finished-at="2024-04-19T16:35:33 IST" duration-ms="768" status="FAIL">
+        <test-method signature="verifyProductTitle(java.lang.String)[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-05-03T17:38:23 IST" name="verifyProductTitle" description="verify products title is displayed on inventory page" finished-at="2024-05-03T17:38:24 IST" duration-ms="753" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -60,17 +60,17 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-04-19T16:35:33 IST" name="tearDown" finished-at="2024-04-19T16:35:34 IST" duration-ms="324" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.InventoryTest@1568159]" started-at="2024-05-03T17:38:24 IST" name="tearDown" finished-at="2024-05-03T17:38:25 IST" duration-ms="390" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.test.testcases.InventoryTest -->
       <class name="com.test.testcases.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-04-19T16:35:25 IST" name="setUp" finished-at="2024-04-19T16:35:32 IST" duration-ms="7057" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-05-03T17:38:15 IST" name="setUp" finished-at="2024-05-03T17:38:23 IST" duration-ms="8636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-04-19T16:35:32 IST" name="login" description="Verify login functionality" data-provider="loginData" finished-at="2024-04-19T16:35:33 IST" duration-ms="826" status="PASS">
+        <test-method signature="login(java.lang.String,java.lang.String)[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-05-03T17:38:23 IST" name="login" description="Verify login functionality" data-provider="loginData" finished-at="2024-05-03T17:38:24 IST" duration-ms="664" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@ at java.base/java.lang.Thread.run(Thread.java:834)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-04-19T16:35:33 IST" name="tearDown" finished-at="2024-04-19T16:35:34 IST" duration-ms="346" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.testcases.LoginTest@2289aca5]" started-at="2024-05-03T17:38:24 IST" name="tearDown" finished-at="2024-05-03T17:38:24 IST" duration-ms="331" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
